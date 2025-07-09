@@ -2,7 +2,7 @@ from llama_cpp import Llama
 
 # Load model
 llm = Llama(
-    model_path="model/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf",
+    model_path="PATH_TO_THE_MODEL",
     n_ctx=2048,
     n_threads=6
 )
